@@ -6,54 +6,69 @@
   <title>Peace of Mind for Families of Aging Parents</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
+      background-color: #f4f7fa;
       color: #333;
+      line-height: 1.6;
     }
     header, section, footer {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
-    h1, h2 {
-      color: #1a1a1a;
-    }
-    .hero {
-      background-color: #ffffff;
+    header.hero {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
       text-align: center;
     }
     .hero h1 {
-      font-size: 2.5em;
+      font-size: 2.8em;
+      margin-bottom: 10px;
     }
     .hero p {
-      font-size: 1.2em;
-      margin: 20px 0;
+      font-size: 1.3em;
     }
     .cta {
-      padding: 10px 20px;
+      padding: 12px 24px;
       background-color: #0077cc;
       color: white;
       border: none;
       border-radius: 5px;
       font-size: 1em;
       cursor: pointer;
+      margin-top: 20px;
     }
     .section {
       background-color: #ffffff;
-      margin: 20px 0;
+      margin: 30px 0;
       border-radius: 8px;
       padding: 30px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+    .section h2 {
+      color: #0077cc;
     }
     ul {
       padding-left: 20px;
     }
+    li {
+      margin-bottom: 10px;
+    }
+    form input[type=email] {
+      padding: 10px;
+      font-size: 1em;
+      width: 60%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
     footer {
       text-align: center;
       font-size: 0.9em;
-      color: #666;
+      color: #888;
+      padding-bottom: 20px;
     }
   </style>
 </head>
@@ -61,51 +76,86 @@
 
   <header class="hero">
     <h1>Peace of Mind for Families of Aging Parents</h1>
-    <p>A private, secure command center to monitor your parent’s health, finances, daily life, and legacy — all in one place.</p>
+    <p>A secure, consent-based command center for managing your parent's health, finances, schedule, and legacy—all in one place.</p>
     <button class="cta">Join the Waitlist</button>
   </header>
 
   <section class="section">
     <h2>The Problem</h2>
     <ul>
-      <li>Missed bills or late medical visits</li>
-      <li>No visibility into day-to-day health or routines</li>
-      <li>Fear of fraud or memory issues</li>
-      <li>Siblings fighting over who does what</li>
+      <li>Missed payments, rent, and tax deadlines</li>
+      <li>Unknown medical visits or medication changes</li>
+      <li>Vulnerability to scams, cognitive decline, and elder fraud</li>
+      <li>Disorganized estate planning and medical directives</li>
+      <li>Emotional burnout and unclear family roles</li>
     </ul>
   </section>
 
   <section class="section">
-    <h2>The Solution</h2>
-    <p>Our app offers full integration with financial institutions, healthcare portals, calendars, and more.</p>
+    <h2>Our Solution</h2>
+    <p>A single dashboard with integrations, smart alerts, and caregiver collaboration features that reduce stress and ensure nothing slips through the cracks.</p>
     <ul>
-      <li><strong>Finance:</strong> Vanguard, Fidelity, Chase</li>
-      <li><strong>Health:</strong> Epic, MyChart, Anthem</li>
-      <li><strong>Daily Life:</strong> Outlook, Google Calendar</li>
-      <li><strong>Smart Alerts:</strong> Custom triggers for missed meds, low balances, more</li>
+      <li><strong>Finance:</strong> View balances, rent status, transaction alerts (Vanguard, Fidelity, Chase)</li>
+      <li><strong>Health:</strong> Sync with MyChart, Anthem, Epic, pharmacy logs, upcoming appointments</li>
+      <li><strong>Routine:</strong> Sync calendar, meal schedule, meds, companion visits</li>
+      <li><strong>Wearables:</strong> Passive wellness updates from Fitbit, Oura, WHOOP, Apple Watch</li>
+      <li><strong>Alerts:</strong> Real-time notifications for fraud, missed meds, unpaid bills, cognitive flags</li>
+      <li><strong>Document Vault:</strong> Store IDs, Medicare cards, power of attorney, legal docs</li>
     </ul>
   </section>
 
   <section class="section">
     <h2>Wearables Integration</h2>
-    <p>Connect WHOOP, Fitbit, Oura, and more to track sleep, steps, heart rate, and other wellness signals — automatically.</p>
+    <p>Automatically pull insights from devices your parent already wears:</p>
+    <ul>
+      <li>🛌 Sleep patterns from Oura Ring</li>
+      <li>💓 Heart rate and strain from WHOOP</li>
+      <li>🚶 Step count, falls, and activity from Fitbit and Apple Watch</li>
+    </ul>
   </section>
 
   <section class="section">
-    <h2>End-of-Life Planning</h2>
-    <p>Digitally organize wills, trusts, advance directives, and funeral preferences. Help your parent articulate their wishes before it's too late.</p>
+    <h2>End-of-Life & Legacy Planning</h2>
+    <ul>
+      <li>Upload, store, and share wills, trusts, and directives securely</li>
+      <li>Designate Power of Attorney and Health Care Proxy</li>
+      <li>Document funeral wishes and legacy notes</li>
+      <li>Create a "Letter of Instructions" checklist</li>
+    </ul>
   </section>
 
   <section class="section">
-    <h2>Privacy & Control</h2>
-    <p>Your parent controls what to share and with whom. Role-based access ensures dignity and transparency.</p>
+    <h2>Role-Based Family Access</h2>
+    <p>Prevent sibling drama by giving everyone access to what they need—no more, no less.</p>
+    <ul>
+      <li>Assign permissions: view-only, edit, legal authority</li>
+      <li>Activity logs show who did what</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Security & Privacy</h2>
+    <ul>
+      <li>End-to-end encryption for all documents and data</li>
+      <li>Granular privacy controls for your parent</li>
+      <li>HIPAA and SOC 2-ready infrastructure</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Helpful Tools</h2>
+    <ul>
+      <li>Printable checklists for taxes, healthcare, estate planning</li>
+      <li>Smart reminders for renewals and due dates</li>
+      <li>Guided setup to make the first 30 days effortless</li>
+    </ul>
   </section>
 
   <section class="section">
     <h2>Join the Waitlist</h2>
-    <p>We’re building this with families like yours. Sign up to be part of our early access community.</p>
+    <p>We’re building this with caregivers like you. Sign up to shape the product and get early access.</p>
     <form>
-      <input type="email" placeholder="Enter your email" style="padding: 10px; font-size: 1em; width: 60%;" required />
+      <input type="email" placeholder="Enter your email" required />
       <button class="cta" type="submit">Sign Up</button>
     </form>
   </section>
